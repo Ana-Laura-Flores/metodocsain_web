@@ -1,0 +1,502 @@
+<html>
+    <head>
+        <title>METODO CSAIN</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+/>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="font-robot dark:bg-gray-900 dark:text-white" >
+        <header class="bg-white dark:bg-gray-900 shadow-md fixed w-full top-0 z-50">
+            <div
+                class="container mx-auto flex justify-between items-center py-4 px-6"
+            >
+                <!-- Logo -->
+                <img
+                    alt="Metodo CSain logo"
+                    height="30"
+                    src="./images/metodo-csain-logo.png"
+                    width="100"
+                />
+              
+                <!-- Botón hamburguesa para móviles -->
+                <button
+                    id="menu-toggle"
+                    class="block md:hidden text-gray-700 focus:outline-none"
+                >
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+                <!-- Menú -->
+                
+                <nav
+                    id="menu"
+                    class="hidden md:flex flex-col md:flex-row md:space-x-8 text-gray-700  dark:text-white  absolute md:static bg-white dark:bg-gray-900  right-0 top-[64px] md:top-0 shadow-md md:shadow-none p-4 md:p-0 z-10"
+
+                >
+                    <ul
+                        class="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0"
+                    >
+                        <li>
+                            <a class="hover:text-gray-900 hover:dark:text-blue-300" href="#metodo"
+                                >NUESTRO MÉTODO</a
+                            >
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-900 hover:dark:text-blue-300" href="#cursos">CURSOS</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-900 hover:dark:text-blue-300" href="#lugar"
+                                >INSTALACIONES</a
+                            >
+                        </li>
+                        <!-- <li>
+                            <a class="hover:text-gray-900 hover:dark:text-blue-300" href="#">NOTAS</a>
+                        </li> -->
+                        <li>
+                            <a class="hover:text-gray-900 hover:dark:text-blue-300" href="#footer">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Icono flotante de WhatsApp -->
+<a href="https://wa.me/5491168601965" target="_blank" class="whatsapp-icon">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-img">
+</a>
+            <div class="relative">
+                <img
+                    alt="ejercicio metodo csain"
+                    class="w-full h-screen object-cover"
+                    height="1080"
+                    src="./images/metodo-csain-home-02.jpg"
+                    width="1920"
+                />
+                <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 animate-fadeIn"
+            >
+                <h1 class="text-white text-4xl lg:text-6xl font-bold">
+                    Método CSain®
+                </h1>
+                <h2 class="text-white text-center text-3xl lg:text-4xl font-thin">
+                    <p>Entrená tu aptitud física y</p>
+                    <p>verás el cambio en tu actitud.</p>
+                </h2>
+                <a href="https://www.instagram.com/metodocsain" target="_blank" rel="noopener noreferrer">
+                    <p class="mt-4 px-6 py-2 bg-white text-black text-lg font-semibold">
+                        UNITE A NUESTRA COMUNIDAD
+                    </p>
+                </a>
+            </div>
+            
+            </div>
+            <div class="container mx-auto px-4 py-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-gray-100 rounded-full p-6">
+                                <i class="fas fa-bolt text-blue-500 text-4xl">
+                                </i>
+                            </div>
+                        </div>
+                        <h2 class="text-xl font-bold dark:text-gray-300">FUNDAMENTOS</h2>
+                        <p class="text-gray-600 dark:text-gray-300 mt-2">
+                            El método de técnicas Integradas en Flexibilidad y
+                            Elongación CSain®, trabaja priorizando el desarrollo
+                            de la Flexibilidad, Movilidad Articular y la
+                            Elongación Muscular, sin dejar de lado el resto de
+                            las Capacidades motoras; como ser, fuerza y
+                            Resistencia.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-gray-100 rounded-full p-6">
+                                <i
+                                    class="fas fa-sliders-h text-blue-500 text-4xl"
+                                >
+                                </i>
+                            </div>
+                        </div>
+                        <h2 class="text-xl font-bold">CLASES</h2>
+                        <p class="text-gray-600 dark:text-gray-300 mt-2">
+                            Clases personalizadas o en grupos reducidos,
+                            adaptadas a todos los niveles y a tus necesidades,
+                            en un ambiente de aprendizaje cercano
+                        </p>
+                    </div>
+                    <div>
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-gray-100 rounded-full p-6">
+                                <i class="fas fa-tshirt text-blue-500 text-4xl">
+                                </i>
+                            </div>
+                        </div>
+                        <h2 class="text-xl font-bold">CURSOS</h2>
+                        <p class="text-gray-600 dark:text-gray-300 mt-2">
+                            Súmate a nuestros cursos y capacitaciones, abiertos
+                            a toda la comunidad que busca crecer en
+                            flexibilidad, bienestar y movimiento consciente.
+                            Método de Técnicas Integradas en Flexibilidad y
+                            Elongación CSain®
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="mt-12 bg-slate-300 rounded-lg container mx-auto px-8 py-8" id="metodo" 
+            >
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12" >
+                    <!-- Columna de Texto -->
+                    <div>
+                        <h2 class="text-2xl font-bold dark:text-gray-600">BENEFICIOS</h2>
+                        <!--<p class="text-gray-600 mt-2">
+                                Sesiones de 40’ donde se trabaja bien un
+                                objetivo específico o general.
+                            </p> -->
+                        <ul class="list-disc list-inside mt-4 text-gray-600">
+                            <li>
+                                Logra recuperar una correcta mecánica del
+                                movimiento.
+                            </li>
+                            <li>
+                                Evita perder el rango articular, acortamiento,
+                                tensión y espasmo muscular.
+                            </li>
+                            <li>
+                                Permite un desarrollo de la coordinación y
+                                libertad de los movimientos de los Segmentos
+                                Corporales en forma global y disociada,
+                                consiguiendo un cuerpo liviano y ágil.
+                            </li>
+                            <li>
+                                Aumenta la percepción sensorial, la resistencia
+                                corporal y mental.
+                            </li>
+                            <li>
+                                Previene lesiones articulares, musculares y los
+                                desequilibrios o asimetrías estructurales.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Columna de Imagen -->
+                    <div>
+                        <img
+                            alt="personas realizando ejercicios metodo CSain®"
+                            src="./images/metodo-csain-home.jpg"
+                            class="w-full h-auto rounded-lg shadow-lg"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <section id="cursos" class="py-16 bg-gray-50 dark:bg-gray-900">
+                <!-- Encabezado con imagen -->
+                <div class="relative">
+                    <img
+                        src="./images/metodo-csain-cursos-portada.jpg"
+                        alt="Cursos de Método CSain"
+                        class="w-full h-64 object-cover"
+                    />
+                    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                        <h2 class="text-white text-3xl md:text-4xl font-bold text-center">
+                            Nuestras Etapas de Formación
+                        </h2>
+                    </div>
+                </div>
+            
+                <!-- Contenido de los cursos -->
+                <div class="container mx-auto px-6 md:px-12 mt-10">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Primera etapa -->
+                        <div class="bg-white dark:bg-gray-300 shadow-md rounded-lg p-6 text-center relative">
+                            <h3 class="text-xl font-semibold text-blue-600 mb-4">
+                                PRIMERA ETAPA DE FORMACIÓN
+                            </h3>
+                            <p class="text-gray-600 mb-6">
+                                ENTRENADOR/A EN FLEXIBILIDAD Y ELONGACIÓN
+                            </p>
+                            <!-- Ícono clickeable -->
+                            <a
+                                href="./programas/programa-entrenador.html"
+                                class="absolute bottom-4 right-4 text-blue-500 hover:text-blue-700"
+                                aria-label="Ver programa de la primera etapa"
+                            >
+                            
+                            <i class="fa-solid fa-arrow-up-right-from-square text-2xl"></i>
+                            </a>
+                        </div>
+                        <!-- Segunda etapa -->
+                        <div class="bg-white dark:bg-gray-300 shadow-md rounded-lg p-6 text-center relative">
+                            <h3 class="text-xl font-semibold text-blue-600 mb-4">
+                                SEGUNDA ETAPA DE FORMACIÓN
+                            </h3>
+                            <p class="text-gray-600 mb-6">
+                                Método CSain: Planificación y Organización de Clases y/o Entrenamiento
+                            </p>
+                            <a
+                                href="./programas/programa-planificacion.html"
+                                class="absolute bottom-4 right-4 text-blue-500 hover:text-blue-700"
+                                aria-label="Ver programa de la segunda etapa"
+                            >
+                            <i class="fa-solid fa-arrow-up-right-from-square text-2xl"></i>
+                            </a>
+                        </div>
+                        <!-- Tercera etapa -->
+                        <div class="bg-white dark:bg-gray-300 shadow-md rounded-lg p-6 text-center relative">
+                            <h3 class="text-xl font-semibold text-blue-600 mb-4">
+                                TERCERA ETAPA DE FORMACIÓN
+                            </h3>
+                            <p class="text-gray-600 mb-6">
+                                REEDUCACIÓN DEL MOVIMIENTO Y CORRECTIVA POSTURAL
+                            </p>
+                            <a
+                                href="./programas/programa-profesorado.html"
+                                class="absolute bottom-4 right-4 text-blue-500 hover:text-blue-700"
+                                aria-label="Ver programa de la tercera etapa"
+                            >
+                            <i class="fa-solid fa-arrow-up-right-from-square text-2xl"></i>
+                            </a>
+                        </div>
+                        <!-- Cuarta etapa -->
+                        <div class="bg-white dark:bg-gray-300 shadow-md rounded-lg p-6 text-center relative">
+                            <h3 class="text-xl font-semibold text-blue-600 mb-4">
+                                CUARTA ETAPA DE FORMACIÓN
+                            </h3>
+                            <p class="text-gray-600 mb-6">
+                                Mecánica y Dinámica de las Cadenas Óseas y Cadenas Musculares
+                            </p>
+                            <a
+                                href="./programas/programa-mecanica-dinamica.html"
+                                class="absolute bottom-4 right-4 text-blue-500 hover:text-blue-700"
+                                aria-label="Ver programa de la cuarta etapa"
+                            >
+                            <i class="fa-solid fa-arrow-up-right-from-square text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="clases" class="py-12 bg-gradient-to-b from-blue-300  to-black relative">
+                <div class="container mx-auto px-6 lg:px-16">
+                    <!-- Título -->
+                    <div class="text-center mb-10">
+                        <h2 class="text-3xl font-bold text-black">CLASES</h2>
+                        <p class="text-xl lg:text-3xl text-black mt-2">
+                            Ofrecemos opciones para que elijas la modalidad que mejor se adapte a ti.
+                        </p>
+                    </div>
+                    <!-- Contenido -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Clases presenciales -->
+                        <div class="bg-gray-300 rounded-lg shadow-lg p-6">
+                            <div class="flex justify-center mb-4">
+                                <i class="fa-solid fa-map-marker-alt text-blue-500 text-5xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-800 text-center">
+                                CLASES PRESENCIALES
+                            </h3>
+                            <p class="text-gray-600 mt-4 text-center">
+                                En Bahía Blanca.
+                            </p>
+                        </div>
+                        <!-- Clases prácticas online -->
+                        <div class="bg-gray-300 rounded-lg shadow-lg p-6">
+                            <div class="flex justify-center mb-4">
+                                <i class="fa-solid fa-globe text-blue-500 text-5xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-800 text-center">
+                                CLASES PRÁCTICAS ONLINE
+                            </h3>
+                            <p class="text-gray-600 mt-4 text-center">
+                                Grupales o entrenamientos personalizados para que practiques desde donde estés.
+                            </p>
+                        </div>
+                        <!-- Destinadas a todas las edades -->
+                        <div class="bg-gray-300 rounded-lg shadow-lg p-6">
+                            <div class="flex justify-center mb-4">
+                                <i class="fa-solid fa-users text-blue-500 text-5xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-800 text-center">
+                                PARA TODAS LAS EDADES
+                            </h3>
+                            <p class="text-gray-600 mt-4 text-center">
+                                No importa si eres un experto o principiante, nuestras clases están adaptadas a tus necesidades.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Imagen de fondo en la parte inferior -->
+                <div class="absolute inset-0 bg-cover bg-center " style="background-image: url('./images/metodo-csain-clases-portada.jpg');"></div>
+            </section>
+            <section id="horarios" class="py-12 bg-gradient-to-t from-blue-300 to-black dark:bg-gray-900 text-white">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-center mb-8">
+                        Horarios Clases Semanales Online
+                    </h2>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <!-- Clases de Flexibilidad y Elongación -->
+                        <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-3xl font-semibold mb-4">Clases de Flexibilidad y Elongación con Reeducación del Movimiento y Correctiva Postural</h3>
+                            <p class="text-xl">Lunes, Martes y Jueves: 14:00h</p>
+                            <p class="text-xl">Viernes: 18:00h</p>
+                        </div>
+                        <!-- Clases de Fuerza, Movilidad Articular y Estiramiento -->
+                        <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg">
+                            <h3 class="text-3xl font-semibold mb-4">Clases de Fuerza, Movilidad Articular y Estiramiento</h3>
+                            <p class="text-xl">Lunes: 16:30h</p>
+                            <p class="text-xl">Jueves: 10:30h</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="lugar" class="py-12  text-black dark:text-gray-300">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-2xl lg:text-4xl font-bold text-center mb-8">
+                        Nuestro Espacio de trabajo
+                    </h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Imagen 1 -->
+                        <div class="bg-black bg-opacity-50 rounded-lg overflow-hidden shadow-lg">
+                            <img src="./images/metodo-csain-elementos.jpg" alt="Imagen del lugar 1" class="w-full h-64 object-cover hover:scale-105 transform transition duration-300">
+                        </div>
+                        <!-- Imagen 2 -->
+                        <div class="bg-black bg-opacity-50 rounded-lg overflow-hidden shadow-lg">
+                            <img src="./images/metodo-csain-elementos-2.jpg" alt="Imagen del lugar 2" class="w-full h-64 object-cover hover:scale-105 transform transition duration-300">
+                        </div>
+                        <!-- Imagen 3 -->
+                        <div class="bg-black bg-opacity-50 rounded-lg overflow-hidden shadow-lg">
+                            <img src="./images/metodo-csain-aparatos.jpg" alt="Imagen del lugar 3" class="w-full h-64 object-cover hover:scale-105 transform transition duration-300">
+                        </div>
+                        <!-- Imagen 4 -->
+                        <div class="bg-black bg-opacity-50 rounded-lg overflow-hidden shadow-lg">
+                            <img src="./images/metodo-csain-frente.jpg" alt="Imagen del lugar 3" class="w-full h-64 object-cover hover:scale-105 transform transition duration-300">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="novedades" class="py-12 bg-gradient-to-b from-blue-300 to-black text-white">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-center mb-8">
+                        Novedades - Cursos 2025
+                    </h2>
+                    <p class="text-center text-2xl lg:text-3xl mb-6">
+                        ¡Siempre estamos desarrollando nuevos workshops y cursos para que sigas creciendo en el mundo de la flexibilidad y elongación!
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Curso 1 -->
+                        <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                            <h3 class="text-2xl font-bold mb-4">Entrenador/a en Flexibilidad y Elongación</h3>
+                            <p class="text-lg mb-4">
+                                Curso presencial en Bahía Blanca y online para todo el país y el exterior. Dirigido a a quienes deseen profundizar sus conocimientos en flexibilidad y elongación.
+                            </p>
+                            <p class="text-lg font-semibold mb-4">Diploma entregado: "Método en Técnicas Integradas en Flexibilidad y Elongación CSain®"</p>
+                            <a href="https://wa.me/5491168601965" class="text-lg text-blue-400 hover:text-blue-500">Contáctanos por Whatsapp</a>
+                        </div>
+                        <!-- Curso 2 -->
+                        <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                            <h3 class="text-2xl font-bold mb-4">Profesor/a en Reeducación del Movimiento y Correctiva Postural</h3>
+                            <p class="text-lg mb-4">
+                                Este curso está diseñado para aquellos interesados en reeducar el movimiento corporal y corregir la postura. Disponibilidad presencial y online.
+                            </p>
+                            <p class="text-lg font-semibold mb-4">Diploma entregado: "Método en Técnicas Integradas en Flexibilidad y Elongación CSain®"</p>
+                            <a href="https://wa.me/5491168601965" class="text-lg text-blue-400 hover:text-blue-500">Contáctanos por Whatsapp</a>
+                        </div>
+                        <!-- Curso 3 -->
+                        <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                            <h3 class="text-2xl font-bold mb-4">Planificación de Clases y Entrenamiento en Flexibilidad y Elongación CSain®</h3>
+                            <p class="text-lg mb-4">
+                                Aprende a diseñar clases efectivas y entrenamientos especializados en flexibilidad y elongación utilizando el Método CSain®. Ideal para entrenadores y profesionales.
+                            </p>
+                            <p class="text-lg font-semibold mb-4">Diploma entregado: "Método en Técnicas Integradas en Flexibilidad y Elongación CSain®"</p>
+                            <a href="https://wa.me/5491168601965" class="text-lg text-blue-400 hover:text-blue-500">Contáctanos por Whatsapp</a>
+                        </div>
+                        <!-- Curso 4 -->
+                        <div class="bg-black bg-opacity-50 p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                            <h3 class="text-2xl font-bold mb-4">Mecánica y Dinámica de las Cadenas Óseas y Musculares </h3>
+                            <p class="text-lg mb-4">
+                                Aborda la comprensión de la interacción entre las cadenas óseas y musculares, clave para optimizar los movimientos en flexibilidad y elongación. utilizando el Método CSain®.
+                            </p>
+                            <p class="text-lg font-semibold mb-4">Diploma entregado: "Método en Técnicas Integradas en Flexibilidad y Elongación CSain®"</p>
+                            <a href="https://wa.me/5491168601965" class="text-lg text-blue-400 hover:text-blue-500">Contáctanos por Whatsapp</a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-8">
+                        <p class="text-lg mb-4 lg:text-3xl">
+                            Además, ofrecemos clases anuales de Flexibilidad y Elongación, Reeducación del Movimiento y Correctiva Postural, para continuar tu formación durante todo el año.
+                        </p>
+                        <a href="mailto:metodocsain@gmail.com" class="text-lg text-blue-400 hover:text-blue-500">Escríbenos para más información</a>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+        </main>
+
+        <footer id="footer" class="bg-gray-900 text-white py-12">
+            <div class="container mx-auto px-6 lg:px-16">
+                <!-- Contenedor de las columnas -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Columna 1: Descripción del Método -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">Método de Técnicas Integradas en Flexibilidad y Elongación CSain®</h3>
+                        <p class="text-gray-300">
+                            El objetivo de este método (MTIFE) es recuperar, reeducar, concienciar los movimientos corporales, fortalecer los sostenes estructurales y ampliar la coordinación y dinámica del cuerpo, consiguiendo un bienestar general logrando además un cambio de aptitud y actitud y una mejor calidad de vida.
+                        </p>
+                        <p class="text-gray-300 mt-4">
+                            Las técnicas que integra el Método MTIFE CSain son también utilizadas como complemento a los entrenamientos deportivos y a nivel terapéutico.
+                        </p>
+                    </div>
+        
+                    <!-- Columna 2: Redes sociales y contacto -->
+                    <div class="flex flex-col justify-between lg:ml-auto">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">Social</h3>
+                            <div class="flex space-x-6 mb-6">
+                                <a href="https://www.facebook.com/metodocsain" target="_blank" class="text-gray-300 hover:text-blue-500">
+                                    <i class="fab fa-facebook-square text-3xl"></i>
+                                </a>
+                                <a href="https://wa.me/5491168601965" target="_blank" class="text-gray-300 hover:text-green-500">
+                                    <i class="fab fa-whatsapp text-3xl"></i>
+                                </a>
+                                <a href="https://www.instagram.com/metodocsain/" target="_blank" class="text-gray-300 hover:text-pink-500">
+                                    <i class="fab fa-instagram text-3xl"></i>
+                                </a>
+                                <a href="mailto:metodocsain@gmail.com" class="text-gray-300 hover:text-purple-500">
+                                    <i class="fas fa-envelope text-3xl"></i>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">Contacto</h3>
+                            <p class="text-gray-300">
+                                <a href="mailto:metodocsain@gmail.com" class="text-gray-300 hover:text-blue-500">metodocsain@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Separador -->
+                <div class="mt-12 border-t border-gray-700 pt-6 text-center">
+                    <p class="text-gray-500 text-sm">
+                        &copy; 2024 Método CSain. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="./script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#clases {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#clases .absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px; /* Ajusta el tamaño de la imagen */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; /* Ajusta la opacidad de la imagen */
+}
+
+#clases h2, #clases p {
+    z-index: 10; /* Asegura que el texto esté encima de la imagen */
+}
+/* Estilos para el icono flotante de WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.whatsapp-img {
+    width: 50px; /* Tamaño del icono */
+    height: 50px;
+}
+
+#metodo {
+    scroll-margin-top: 100px; /* ajustá este valor a la altura de tu navbar */
+  }
+  
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 5s ease-out forwards;
+}
