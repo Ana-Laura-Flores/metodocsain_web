@@ -1,0 +1,1221 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:title"
+            content="Método CSAIN® - Formación en Flexibilidad"
+        />
+        <meta
+            property="og:description"
+            content="Estructura, destinatarios y metodología de la Formación en Flexibilidad y Elongación Integrativa. Reservá tu lugar."
+        />
+
+        <meta
+            property="og:image"
+            content="https://www.csain.com.ar/miniatura-programa-entrenador.jpg"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta property="og:url" content="https://www.csain.com.ar/" />
+        <title>
+            Programa Entrenador/a en Flexibilidad y Elongación Integrativa
+            Método CSain
+        </title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: "Inter", sans-serif;
+                background-color: #f4f5f6;
+                padding: 40px;
+                color: #264653;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                align-items: center;
+            }
+
+            /* Simulación de páginas A4 */
+            .page {
+                width: 794px;
+                height: 1123px;
+                background: #ffffff;
+                padding: 80px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* COLORES PALETA */
+            :root {
+                --azul: #264653;
+                --verde: #2a9d8f;
+                --gris: #e9ecef;
+                --texto: #334e5a;
+            }
+
+            /* --- PÁGINA 1: PORTADA --- */
+            .portada {
+                background-color: #ffffff;
+                justify-content: space-between;
+            }
+            .logo-area {
+                font-weight: 700;
+                font-size: 18px;
+                letter-spacing: 2px;
+                color: var(--azul);
+            }
+            .logo-area span {
+                color: var(--verde);
+            }
+            .hero-content {
+                margin-top: 60px;
+            }
+            .tag-formacion {
+                background: var(--gris);
+                color: var(--azul);
+                padding: 6px 14px;
+                font-size: 12px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                display: inline-block;
+                margin-bottom: 24px;
+                border-radius: 4px;
+            }
+            h1 {
+                font-size: 46px;
+                font-weight: 700;
+                line-height: 1.2;
+                color: var(--azul);
+                margin-bottom: 16px;
+            }
+            .subtitle {
+                font-size: 22px;
+                color: var(--verde);
+                font-weight: 400;
+                max-width: 80%;
+                line-height: 1.4;
+            }
+            .portada-footer {
+                border-top: 1px solid var(--gris);
+                padding-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+            .meta-item {
+                font-size: 13px;
+                color: var(--texto);
+                line-height: 1.6;
+            }
+            .meta-item strong {
+                color: var(--azul);
+                display: block;
+                font-size: 14px;
+            }
+
+            /* Contenedor de Imagen de Portada */
+            .visual-container {
+                width: 100%;
+                height: 360px;
+                margin: 40px 0;
+                border-radius: 8px;
+                overflow: hidden;
+                background: #e9ecef;
+            }
+            .visual-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            /* --- PÁGINA 2: CONTENIDO INTERNO --- */
+            .interna {
+                background-color: #fafbfc;
+            }
+            .header-interna {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid var(--gris);
+                padding-bottom: 20px;
+                margin-bottom: 40px;
+            }
+            .header-interna .title {
+                font-size: 12px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: var(--texto);
+            }
+            h2 {
+                font-size: 26px;
+                color: var(--azul);
+                font-weight: 700;
+                margin-bottom: 30px;
+                position: relative;
+            }
+            h2::after {
+                content: "";
+                display: block;
+                width: 40px;
+                height: 3px;
+                background: var(--verde);
+                margin-top: 8px;
+            }
+            .grid-bloques {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .bloque-item {
+                background: #ffffff;
+                border-left: 4px solid var(--verde);
+                padding: 24px;
+                border-radius: 0 8px 8px 0;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+            }
+            .bloque-title {
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--azul);
+                margin-bottom: 12px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .bloque-title span {
+                color: var(--verde);
+                font-size: 13px;
+                font-weight: 400;
+            }
+            .bloque-list {
+                list-style: none;
+            }
+            .bloque-list li {
+                font-size: 14px;
+                color: var(--texto);
+                margin-bottom: 8px;
+                position: relative;
+                padding-left: 15px;
+                line-height: 1.5;
+            }
+            .bloque-list li::before {
+                content: "•";
+                color: var(--verde);
+                position: absolute;
+                left: 0;
+                font-weight: bold;
+            }
+            .footer-interna {
+                position: absolute;
+                bottom: 40px;
+                left: 80px;
+                right: 80px;
+                display: flex;
+                justify-content: space-between;
+                font-size: 11px;
+                color: #94a3b8;
+                border-top: 1px solid var(--gris);
+                padding-top: 15px;
+            }
+            /* Botón Flotante de WhatsApp */
+            .whatsapp-btn {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 60px;
+                height: 60px;
+                background-color: #25d366;
+                color: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+                z-index: 9999;
+                transition:
+                    transform 0.3s ease,
+                    background-color 0.3s ease;
+            }
+
+            /* Efecto Hover */
+            .whatsapp-btn:hover {
+                background-color: #128c7e;
+                transform: scale(1.1);
+            }
+
+            /* Animación sutil de pulso al cargar */
+            @keyframes pulse-ws {
+                0% {
+                    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+                }
+                70% {
+                    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+                }
+                100% {
+                    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+                }
+            }
+
+            .whatsapp-btn {
+                animation: pulse-ws 2s infinite;
+            }
+
+            /* Ajuste para pantallas más chicas (opcional) */
+            @media (max-width: 768px) {
+                .whatsapp-btn {
+                    bottom: 15px;
+                    right: 15px;
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- VISTA DE PORTADA -->
+        <div class="page portada">
+            <div class="logo-area">MÉTODO CSAIN<span>®</span></div>
+
+            <div class="hero-content">
+                <span class="tag-formacion">Formación Profesional 2026</span>
+                <h1>
+                    Entrenador/a en Flexibilidad<br />y Elongación Integrativa
+                </h1>
+                <div class="subtitle">
+                    Un abordaje profundo e interdisciplinario para comprender el
+                    movimiento con sentido.
+                </div>
+
+                <!-- Espacio para la foto central -->
+                <div class="visual-container">
+                    <img
+                        src="./images/portada-movimiento.jpg"
+                        alt="Método CSain Flexibilidad Consciente"
+                    />
+                </div>
+            </div>
+
+            <div class="portada-footer">
+                <div class="meta-item">
+                    <strong>Duración</strong>6 Meses (Julio - Diciembre)
+                </div>
+                <div class="meta-item">
+                    <strong>Modalidad</strong>Híbrida / Bahía Blanca
+                </div>
+                <div class="meta-item">
+                    <strong>Certifica</strong>Método CSain®
+                </div>
+            </div>
+        </div>
+
+        <!-- VISTA DE PÁGINA 2: PROPÓSITO -->
+        <div class="page interna" style="background-color: #ffffff">
+            <div class="header-interna">
+                <div class="logo-area" style="font-size: 14px">
+                    MÉTODO CSAIN<span>®</span>
+                </div>
+                <div class="title">Filosofía & Propósito</div>
+            </div>
+
+            <!-- Frase Destacada (Manifiesto) -->
+            <div
+                style="
+                    margin: 60px 0 40px 0;
+                    border-left: 4px solid var(--verde);
+                    padding-left: 30px;
+                "
+            >
+                <p
+                    style="
+                        font-size: 26px;
+                        font-weight: 300;
+                        font-style: italic;
+                        line-height: 1.4;
+                        color: var(--azul);
+                        max-width: 90%;
+                    "
+                >
+                    “El desarrollo integrativo en el entrenamiento de la
+                    flexibilidad y elongación unido a la fuerza facilita el
+                    desarrollo, adaptación a los cambios del cuerpo en todas las
+                    etapas de nuestra vida."
+                </p>
+            </div>
+
+            <!-- Contenido Principal a Dos Columnas -->
+            <div
+                style="
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 40px;
+                    margin-top: 20px;
+                "
+            >
+                <div>
+                    <h3
+                        style="
+                            font-size: 18px;
+                            font-weight: 600;
+                            color: var(--azul);
+                            margin-bottom: 16px;
+                        "
+                    >
+                        Más allá del estiramiento tradicional
+                    </h3>
+                    <p
+                        style="
+                            font-size: 14px;
+                            line-height: 1.6;
+                            color: var(--texto);
+                            margin-bottom: 16px;
+                            text-align: justify;
+                        "
+                    >
+                        Diseñar una clase de flexibilidad no es armar una lista
+                        de ejercicios coreografiados. Es comprender la
+                        biomecánica profunda, regular el sistema nervioso a
+                        través de la respiración y aprender a aplicar la fuerza
+                        en el rango correcto.
+                    </p>
+                    <p
+                        style="
+                            font-size: 14px;
+                            line-height: 1.6;
+                            color: var(--texto);
+                            text-align: justify;
+                        "
+                    >
+                        Esta formación de 6 meses nace con el objetivo de cerrar
+                        la brecha entre la teoría científica y la práctica
+                        consciente. No está diseñada para que sumes un título
+                        más a tu pared; está pensada para que aprendas a leer
+                        cuerpos, interpretar restricciones y diseñar secuencias
+                        con verdadero sentido biológico.
+                    </p>
+                </div>
+
+                <div>
+                    <h3
+                        style="
+                            font-size: 18px;
+                            font-weight: 600;
+                            color: var(--azul);
+                            margin-bottom: 16px;
+                        "
+                    >
+                        Un cambio de paradigma
+                    </h3>
+                    <p
+                        style="
+                            font-size: 14px;
+                            line-height: 1.6;
+                            color: var(--texto);
+                            margin-bottom: 16px;
+                            text-align: justify;
+                        "
+                    >
+                        Cuando entendemos el movimiento desde una mirada
+                        integrativa, dejamos de "estirar el síntoma" y empezamos
+                        a trabajar sobre el origen de la rigidez. El cuerpo solo
+                        cede espacio cuando se siente seguro.
+                    </p>
+
+                    <!-- Recuadro de Enfoque Metodológico -->
+                    <div
+                        style="
+                            background-color: var(--gris);
+                            padding: 20px;
+                            border-radius: 6px;
+                            margin-top: 24px;
+                        "
+                    >
+                        <h4
+                            style="
+                                font-size: 13px;
+                                font-weight: 600;
+                                text-transform: uppercase;
+                                letter-spacing: 0.5px;
+                                color: var(--azul);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Pilares del Aprendizaje
+                        </h4>
+                        <ul
+                            style="
+                                list-style: none;
+                                font-size: 13px;
+                                color: var(--texto);
+                                line-height: 1.5;
+                            "
+                        >
+                            <li style="margin-bottom: 6px">
+                                🟢
+                                <strong>Conciencia propioceptiva</strong> antes
+                                que rendimiento.
+                            </li>
+                            <li style="margin-bottom: 6px">
+                                🟢
+                                <strong>Integración biológica:</strong>
+                                Respiración, Movilidad, Elasticidad, SNA y
+                                hormonas
+                            </li>
+                            <li style="margin-bottom: 6px">
+                                🟢 <strong>Criterio profesional</strong> para
+                                adaptar y evaluar.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mini banner visual inferior -->
+            <div
+                style="
+                    width: 100%;
+                    height: 180px;
+                    background: linear-gradient(
+                        90deg,
+                        #264653 0%,
+                        #2a9d8f 100%
+                    );
+                    margin-top: auto;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    padding: 30px;
+                    color: white;
+                "
+            >
+                <div style="max-width: 70%">
+                    <p
+                        style="
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            letter-spacing: 1.5px;
+                            opacity: 0.8;
+                            margin-bottom: 4px;
+                        "
+                    >
+                        El Arte de Moverte
+                    </p>
+                    <p style="font-size: 16px; font-weight: 400">
+                        Preparate para guiar procesos de transformación física
+                        basados en el respeto y la anatomía real.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-interna">
+                <div>Formación en Flexibilidad y Elongación Integrativa</div>
+                <div>Página 02</div>
+            </div>
+        </div>
+
+        <!-- VISTA DE PÁGINA INTERNA (PROGRAMA) -->
+        <div class="page interna">
+            <div class="header-interna">
+                <div class="logo-area" style="font-size: 14px">
+                    MÉTODO CSAIN<span>®</span>
+                </div>
+                <div class="title">Programa Académico</div>
+            </div>
+
+            <h2>Ejes Centrales de la Formación</h2>
+
+            <div class="grid-bloques">
+                <div class="bloque-item">
+                    <div class="bloque-title">
+                        Bloque 1: Neurofisiología y Anatomía del Tejido
+                        Conectivo
+                    </div>
+                    <ul class="bloque-list">
+                        <li>
+                            Bases conceptuales: Flexibilidad, elongación,
+                            elasticidad, deformación and tensión.
+                        </li>
+                        <li>
+                            Biología y química muscular profunda en la
+                            contracción y el estiramiento.
+                        </li>
+                        <li>
+                            La matriz celular: Estructura y función del
+                            colágeno, la elastina y el sistema fascial.
+                        </li>
+                        <li>
+                            Lectura clínica y abordaje primario de lesiones en
+                            tejidos blandos (desgarros, contracturas).
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bloque-item">
+                    <div class="bloque-title">
+                        Bloque 2: Métodos de Estiramiento y Técnicas Avanzadas
+                    </div>
+                    <ul class="bloque-list">
+                        <li>
+                            Clasificación analítica: Estático, Pasivo,
+                            Activo-Asistido y métodos Balísticos.
+                        </li>
+                        <li>
+                            FNP (Facilitación Neuromuscular Propioceptiva) y
+                            técnicas de descompresión por Tracción.
+                        </li>
+                        <li>
+                            Dosificación y planificación según el ciclo:
+                            pre/post entrenamiento y etapas de recuperación.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-interna">
+                <div>Formación en Flexibilidad e Elongación Integrativa</div>
+                <div>Página 03</div>
+            </div>
+        </div>
+
+        <!-- VISTA DE PÁGINA INTERNA 02 (PROGRAMA) -->
+        <div class="page interna">
+            <div class="header-interna">
+                <div class="logo-area" style="font-size: 14px">
+                    MÉTODO CSAIN<span>®</span>
+                </div>
+                <div class="title">Programa Académico</div>
+            </div>
+
+            <h2>Ejes Centrales de la Formación</h2>
+
+            <div class="grid-bloques">
+                <div class="bloque-item">
+                    <div class="bloque-title">
+                        Bloque 3: Pedagogía, Herramientas y Método CSain®
+                    </div>
+                    <ul class="bloque-list">
+                        <li>
+                            Didáctica del movimiento: Posturas y ejercicios con
+                            y sin elementos de ayuda.
+                        </li>
+                        <li>
+                            La asistencia del entorno: Ejecución y biomecánica
+                            en pared, espaldares y cinturones colgantes.
+                        </li>
+                        <li>
+                            La matriz celular: Estructura y función del
+                            colágeno, la elastina y el sistema
+                            fascial.Flexibilidad Compensada: Armado de
+                            secuencias dinámicas, simétricas y asimétricas.
+                        </li>
+                        <li>
+                            Respiración como técnica de ayuda para el cambio
+                            biológico.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bloque-item">
+                    <div class="bloque-title">
+                        Bloque 4: Planificación, Gestión y Relajación
+                    </div>
+                    <ul class="bloque-list">
+                        <li>
+                            El diseño profesional: Cómo estructurar y planificar
+                            sesiones individuales y clases grupales eficaces.
+                        </li>
+                        <li>
+                            Complemento deportivo: La elongación como factor
+                            clave para optimizar el rendimiento y prevenir
+                            lesiones en deportes específicos.
+                        </li>
+                        <li>
+                            Sistemas de relajación: Relajación
+                            cognitivo-conductual aplicada al movimiento. Cómo y
+                            cuándo aplicarla para hackear las restricciones del
+                            sistema nervioso.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-interna">
+                <div>Formación en Flexibilidad e Elongación Integrativa</div>
+                <div>Página 04</div>
+            </div>
+        </div>
+        <!-- VISTA DE PÁGINA 5: DESTINATARIOS Y MODALIDAD -->
+        <div class="page interna" style="background-color: #ffffff">
+            <div class="header-interna">
+                <div class="logo-area" style="font-size: 14px">
+                    MÉTODO CSAIN<span>®</span>
+                </div>
+                <div class="title">Admisión & Formato</div>
+            </div>
+
+            <h2 style="margin-bottom: 40px">
+                ¿A quién está dirigida esta formación?
+            </h2>
+
+            <div
+                style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px"
+            >
+                <!-- Columna Perfiles -->
+                <div>
+                    <p
+                        style="
+                            font-size: 14px;
+                            line-height: 1.6;
+                            color: var(--texto);
+                            margin-bottom: 24px;
+                        "
+                    >
+                        Esta propuesta académica fue diseñada para profesionales
+                        que buscan dar un salto cualitativo en sus herramientas
+                        de intervención, alejándose de los enfoques genéricos y
+                        repetitivos.
+                    </p>
+
+                    <div
+                        style="display: flex; flex-direction: column; gap: 16px"
+                    >
+                        <div
+                            style="
+                                display: flex;
+                                gap: 12px;
+                                align-items: flex-start;
+                            "
+                        >
+                            <span
+                                style="
+                                    background: var(--gris);
+                                    padding: 6px 10px;
+                                    border-radius: 4px;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    color: var(--verde);
+                                "
+                                >01</span
+                            >
+                            <div>
+                                <h4
+                                    style="
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        color: var(--azul);
+                                    "
+                                >
+                                    Profesionales del Movimiento
+                                </h4>
+                                <p
+                                    style="
+                                        font-size: 12px;
+                                        color: var(--texto);
+                                        margin-top: 2px;
+                                    "
+                                >
+                                    Instructores de yoga, pilates, entrenadores
+                                    personales y profes de educación física.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            style="
+                                display: flex;
+                                gap: 12px;
+                                align-items: flex-start;
+                            "
+                        >
+                            <span
+                                style="
+                                    background: var(--gris);
+                                    padding: 6px 10px;
+                                    border-radius: 4px;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    color: var(--verde);
+                                "
+                                >02</span
+                            >
+                            <div>
+                                <h4
+                                    style="
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        color: var(--azul);
+                                    "
+                                >
+                                    Área de la Salud y Cuidado
+                                </h4>
+                                <p
+                                    style="
+                                        font-size: 12px;
+                                        color: var(--texto);
+                                        margin-top: 2px;
+                                    "
+                                >
+                                    Kinesiólogos, masoterapeutas y facilitadores
+                                    de técnicas corporales de rehabilitación.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            style="
+                                display: flex;
+                                gap: 12px;
+                                align-items: flex-start;
+                            "
+                        >
+                            <span
+                                style="
+                                    background: var(--gris);
+                                    padding: 6px 10px;
+                                    border-radius: 4px;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    color: var(--verde);
+                                "
+                                >03</span
+                            >
+                            <div>
+                                <h4
+                                    style="
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        color: var(--azul);
+                                    "
+                                >
+                                    Artistas y Atletas
+                                </h4>
+                                <p
+                                    style="
+                                        font-size: 12px;
+                                        color: var(--texto);
+                                        margin-top: 2px;
+                                    "
+                                >
+                                    Bailarines, acróbatas y deportistas de
+                                    rendimiento que deseen optimizar su propia
+                                    biomecánica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Metodología -->
+                <div
+                    style="
+                        background-color: #fafbfc;
+                        padding: 30px;
+                        border-radius: 8px;
+                        border: 1px solid var(--gris);
+                    "
+                >
+                    <h3
+                        style="
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: var(--azul);
+                            margin-bottom: 20px;
+                            text-transform: uppercase;
+                            letter-spacing: 0.5px;
+                        "
+                    >
+                        Metodología de Cursada
+                    </h3>
+
+                    <div
+                        style="display: flex; flex-direction: column; gap: 20px"
+                    >
+                        <div>
+                            <h5
+                                style="
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    color: var(--verde);
+                                    margin-bottom: 4px;
+                                "
+                            >
+                                • Online o Presencial en Bahía Blanca.
+                            </h5>
+                        </div>
+                        <div>
+                            <h5
+                                style="
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    color: var(--verde);
+                                    margin-bottom: 4px;
+                                "
+                            >
+                                • Encuentros regulares.
+                            </h5>
+                            <p
+                                style="
+                                    font-size: 13px;
+                                    line-height: 1.5;
+                                    color: var(--texto);
+                                "
+                            >
+                                Cursada una vez a la semana sincrónico
+                                teórico-técnico-práctico, las clases quedan
+                                grabadas para que puedas verlas y repetirlas
+                                cuantas veces quieras.
+                            </p>
+                        </div>
+                        <div>
+                            <h5
+                                style="
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    color: var(--verde);
+                                    margin-bottom: 4px;
+                                "
+                            >
+                                • Encuentros Intensivos mensuales.
+                            </h5>
+                            <p
+                                style="
+                                    font-size: 13px;
+                                    line-height: 1.5;
+                                    color: var(--texto);
+                                "
+                            >
+                                (1 sábado al mes) por Microsoft Team orientados
+                                al análisis técnico, correcciones y armado de
+                                secuencias.
+                            </p>
+                        </div>
+                        <div>
+                            <h5
+                                style="
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    color: var(--verde);
+                                    margin-bottom: 4px;
+                                "
+                            >
+                                • Material de Consulta Permanente
+                            </h5>
+                            <p
+                                style="
+                                    font-size: 13px;
+                                    line-height: 1.5;
+                                    color: var(--texto);
+                                "
+                            >
+                                Se entregan pdf con material teórico para que
+                                puedas consultarlos cuando vos quieras.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-interna">
+                <div>Formación en Flexibilidad y Elongación Integrativa</div>
+                <div>Página 05</div>
+            </div>
+        </div>
+
+        <!-- VISTA DE PÁGINA 6: INVERSIÓN Y CIERRE -->
+        <div
+            class="page interna"
+            style="background-color: #fafbfc; justify-content: space-between"
+        >
+            <div class="header-interna" style="margin-bottom: 20px">
+                <div class="logo-area" style="font-size: 14px">
+                    MÉTODO CSAIN<span>®</span>
+                </div>
+                <div class="title">Inversión & Reserva</div>
+            </div>
+
+            <div
+                style="
+                    text-align: center;
+                    max-width: 80%;
+                    margin: 0 auto 30px auto;
+                "
+            >
+                <h2 style="display: inline-block; margin-bottom: 15px">
+                    Inscripciones Abiertas
+                </h2>
+                <p
+                    style="
+                        font-size: 14px;
+                        color: var(--texto);
+                        line-height: 1.6;
+                    "
+                >
+                    Asegurá tu espacio en la cohorte de
+                    <strong>Julio — Diciembre 2026</strong>. Elegí la opción de
+                    pago que mejor se adapte a tu planificación financiera:
+                </p>
+            </div>
+
+            <!-- Tarjetas de Precio -->
+            <div
+                style="
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 30px;
+                    margin-bottom: 40px;
+                "
+            >
+                <!-- Plan Cuotas -->
+                <div
+                    style="
+                        background: #ffffff;
+                        padding: 35px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+                        border-top: 4px solid var(--azul);
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    "
+                >
+                    <div>
+                        <h4
+                            style="
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                color: var(--texto);
+                                letter-spacing: 1px;
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Abono Mensual
+                        </h4>
+                        <p
+                            style="
+                                font-size: 12px;
+                                color: #94a3b8;
+                                margin-bottom: 20px;
+                            "
+                        >
+                            Financiación regular mes a mes
+                        </p>
+                        <div
+                            style="
+                                font-size: 36px;
+                                font-weight: 700;
+                                color: var(--azul);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            $130.000
+                        </div>
+                        <p
+                            style="
+                                font-size: 13px;
+                                color: var(--texto);
+                                line-height: 1.5;
+                            "
+                        >
+                            5 Cuotas mensuales consecutivas. + Pago de
+                            Evaluación Final (correspondiente a un mes más.)
+                        </p>
+                        <p
+                            style="
+                                font-size: 13px;
+                                color: var(--texto);
+                                line-height: 1.5;
+                            "
+                        >
+                            TOTAL $780.000
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Plan Único -->
+                <div
+                    style="
+                        background: #ffffff;
+                        padding: 35px;
+                        border-radius: 8px;
+                        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+                        border-top: 4px solid var(--verde);
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        position: relative;
+                    "
+                >
+                    <span
+                        style="
+                            position: absolute;
+                            top: -12px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background: var(--verde);
+                            color: white;
+                            padding: 4px 12px;
+                            font-size: 11px;
+                            font-weight: bold;
+                            border-radius: 20px;
+                            text-transform: uppercase;
+                            letter-spacing: 0.5px;
+                        "
+                        >Evaluación Bonificada</span
+                    >
+                    <div>
+                        <h4
+                            style="
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                color: var(--azul);
+                                letter-spacing: 1px;
+                                margin-bottom: 10px;
+                            "
+                        >
+                            Pago Único Total
+                        </h4>
+                        <p
+                            style="
+                                font-size: 12px;
+                                color: var(--verde);
+                                font-weight: 600;
+                                margin-bottom: 20px;
+                            "
+                        >
+                            Un sólo Pago
+                        </p>
+                        <div
+                            style="
+                                font-size: 36px;
+                                font-weight: 700;
+                                color: var(--azul);
+                                margin-bottom: 10px;
+                            "
+                        >
+                            $650.000
+                        </div>
+                        <p
+                            style="
+                                font-size: 13px;
+                                color: var(--texto);
+                                line-height: 1.5;
+                            "
+                        >
+                            Acceso completo bonificado en un único pago sin pago
+                            de Evaluación Final.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloque de Cierre y Llamado a la Acción -->
+            <div
+                style="
+                    background: var(--azul);
+                    color: white;
+                    padding: 35px;
+                    border-radius: 8px;
+                    text-align: center;
+                    position: relative;
+                "
+            >
+                <p
+                    style="
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        color: var(--verde);
+                        font-weight: 600;
+                        margin-bottom: 8px;
+                    "
+                >
+                    Cupos Estrictamente Limitados
+                </p>
+                <p
+                    style="
+                        font-size: 14px;
+                        opacity: 0.9;
+                        max-width: 80%;
+                        margin: 0 auto 24px auto;
+                        line-height: 1.5;
+                    "
+                >
+                    Para garantizar un seguimiento real, corrección técnica
+                    personalizada en los encuentros en vivo y tutorías de
+                    calidad, las vacantes se cierran al completarse el cupo
+                    técnico.
+                </p>
+
+                <!-- Botón de Acción -->
+                <a
+                    href="https://wa.me/5491168601965?text=Hola!%20Quiero%20reservar%20mi%20lugar%20en%20la%20Formación%20en%20Flexibilidad%20y%20Elongación%20Integrativa"
+                    target="_blank"
+                    style="
+                        display: inline-block;
+                        background-color: var(--verde);
+                        color: white;
+                        text-decoration: none;
+                        padding: 14px 32px;
+                        font-size: 14px;
+                        font-weight: 600;
+                        border-radius: 4px;
+                        letter-spacing: 0.5px;
+                    "
+                >
+                    QUIERO RESERVAR MI LUGAR
+                </a>
+
+                <p style="font-size: 12px; opacity: 0.6; margin-top: 16px">
+                    ¿Tenés dudas sobre las modalidades o el plan de pagos?
+                    Escribime al Whatsapp y lo coordinamos.
+                </p>
+            </div>
+
+            <div
+                class="footer-interna"
+                style="
+                    position: relative;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    padding-top: 15px;
+                    margin-top: 20px;
+                "
+            >
+                <div>Formación en Flexibilidad y Elongación Integrativa</div>
+                <div>Página 06</div>
+            </div>
+        </div>
+        <a
+            href="https://wa.me/5491168601965"
+            class="whatsapp-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Escribinos por WhatsApp"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                width="30"
+                height="30"
+                fill="#fff"
+            >
+                <path
+                    d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                />
+            </svg>
+        </a>
+    </body>
+</html>
