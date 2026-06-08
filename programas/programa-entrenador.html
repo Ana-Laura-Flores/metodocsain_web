@@ -4,149 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        rel="stylesheet"
-    />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <title>Programa Entrenador - MétodoCSain</title>
-    
+    <title>Programa Entrenador/a en Flexibilidad y Elongación Integrativa - Método CSain®</title>
+    <meta name="description" content="Iniciá tu formación profesional con la Primera Etapa del Método CSain®. Aprendé métodos, técnicas y fisiología de la flexibilidad integrativa.">
 </head>
-    <a href="../index.html#cursos" class="fixed bottom-4 right-4 bg-cyan-400 text-white text-3xl px-3 py-3 rounded-full shadow-lg hover:bg-gray-700 transition z-50">
-        ←
+<body class="font-roboto bg-slate-900 text-slate-300 pt-[68px]">
+
+    <!-- Botón Flotante para Volver Atrás (Copia exacta en diseño y enlace) -->
+    <a href="../formacion-profesional.html" class="fixed bottom-6 left-6 bg-blue-600 text-white text-xl w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:bg-blue-500 transition transform hover:scale-110 z-50" aria-label="Volver a formación">
+        <i class="fas fa-arrow-left"></i>
     </a>
-<body class="bg-gray-100 dark:bg-gray-900 dark:text-white transition-colors duration-300">
-    <!-- Navbar -->
-    <nav class="bg-gray-300 bg-opacity-75 p-4 fixed top-0 left-0 right-0 z-50 shadow-lg dark:bg-gray-800 dark:bg-opacity-75">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="../index.html" target="_blank" class="flex items-center">
-                <img src="../images/metodo-csain-logo.png" alt="Logo" class="h-8 mr-2">
-                <span class="text-xl font-semibold text-black hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Método CSain</span>
+
+    <!-- Navbar (Fija y oscura con blur de fondo) -->
+    <nav class="bg-slate-900/90 backdrop-blur-md p-4 fixed top-0 left-0 right-0 z-50 shadow-md border-b border-slate-800">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="../index.html" class="flex items-center gap-2 group">
+                <img src="../images/metodo-csain-logo.png" alt="Logo Método CSain" class="h-8">
+                <span class="text-xl font-bold text-white group-hover:text-blue-400 transition">
+                    Método CSain
+                </span>
             </a>
-            <a href="https://wa.me/5491168601965" class="text-lg text-black hover:text-blue-500 transition duration-300 dark:text-white dark:hover:text-blue-500">Contactanos</a>
+            <a href="https://wa.me/5491168601965" target="_blank" rel="noopener noreferrer" class="text-base font-medium text-white hover:text-blue-400 transition">
+                Contactanos
+            </a>
         </div>
     </nav>
 
-    <section id="programa-curso" class="py-12">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl lg:text-5xl font-bold text-center mt-16 mb-8 dark:text-white">
-                Programa del Curso:
-                <p class="text-white-500 font-normal text-2xl lg:mt-2 lg:text-3xl">Primer Etapa de formación</p>
-                <p class="text-blue-500 text-2xl lg:mt-2 lg:text-3xl">Entrenador/a en Flexibilidad y Elongación</p>
-            </h2>
-
-            <!-- Objetivos destacados -->
-            <div class="bg-gray-300 p-6 rounded-lg shadow-md mb-8 transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                <h3 class="text-2xl font-bold mb-4">Objetivos del Curso</h3>
-                <p class="text-lg text-gray-700 dark:text-gray-300">
-                    Este curso está diseñado para formar entrenadores en flexibilidad y elongación, brindando los conocimientos teóricos y prácticos necesarios para aplicar técnicas efectivas y seguras, tanto en el ámbito deportivo como en la actividad física recreativa.
-                </p>
+    <!-- Sección de Contenido Principal -->
+    <main id="programa-curso" class="py-12">
+        <div class="container mx-auto px-6 max-w-6xl">
+            
+            <!-- Encabezado del Programa -->
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold text-blue-400 tracking-widest uppercase block mb-2">
+                    Primera Etapa de Formación
+                </span>
+                <h1 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">
+                    Programa de Entrenador/a en <br class="hidden md:block"> Flexibilidad y Elongación Integrativa
+                </h1>
             </div>
 
-            <!-- Grilla principal -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Métodos y Técnicas -->
-                <div class="col-span-1 md:col-span-2 lg:col-span-4 bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 grid grid-cols-1 md:grid-cols-2 gap-6 dark:bg-gray-800 dark:text-white">
-                    <div>
-                        <h3 class="text-2xl font-bold mb-4">Métodos y Técnicas</h3>
-                        <ul class="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
-                            <li>Posturas y ejercicios con y sin elementos de ayuda</li>
-                            <li>Secuencias dinámicas de flexibilidad compensada</li>
-                            <li>Posturas con cinturones colgantes, espaldares y pared</li>
-                            <li>Ejercicios simétricos y asimétricos</li>
+            <!-- Grilla Principal del Plan de Estudios -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- 1. MÓDULO DESTACADO: MÉTODOS Y TÉCNICAS PRÁCTICAS -->
+                <div class="md:col-span-2 lg:col-span-3 bg-slate-800 p-8 rounded-2xl border border-slate-700/60 shadow-md grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
+                    <div class="md:col-span-3">
+                        <div class="flex items-center gap-3 mb-4 text-blue-400">
+                            <i class="fas fa-layer-group text-xl"></i>
+                            <h3 class="text-xl font-bold text-white">Métodos, Técnicas y Didácticas</h3>
+                        </div>
+                        <ul class="space-y-2 text-slate-300 font-light text-sm">
+                            <li class="flex items-start gap-2"><i class="fas fa-check text-blue-400 mt-1 text-xs"></i> Posturas y ejercicios con y sin elementos de ayuda.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check text-blue-400 mt-1 text-xs"></i> Secuencias dinámicas fluidas de flexibilidad compensada.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check text-blue-400 mt-1 text-xs"></i> Posturas con uso de cinturones colgantes, espaldares y/o pared.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check text-blue-400 mt-1 text-xs"></i> Posturas, posiciones y ejercicios simétricos y asimétricos.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check text-blue-400 mt-1 text-xs"></i> Participación de la respiración en la toma de conciencia de la ejecución.</li>
                         </ul>
                     </div>
-                    <div class="flex items-center justify-center">
-                        <img src="../images/metodo-csain-home-02.jpg" alt="Métodos y Técnicas" class="rounded-lg shadow-md max-w-full">
+                    <div class="md:col-span-2 rounded-xl overflow-hidden h-48 md:h-full min-h-[200px]">
+                        <img src="../images/metodo-csain-home-02.jpg" alt="Métodos y Técnicas de Flexibilidad" class="w-full h-full object-cover">
                     </div>
                 </div>
 
-                <!-- Definiciones -->
-                <div class="col-span-1 md:col-span-1 lg:col-span-1 bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                    <h3 class="text-2xl font-bold mb-4">Definiciones</h3>
-                    <ul class="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
-                        <li>Flexibilidad</li>
-                        <li>Elongación</li>
-                        <li>Elasticidad</li>
-                        <li>Tensión</li>
-                        <li>Deformación</li>
-                        <li>Contracción</li>
+                <!-- 2. ANATOMÍA Y NEUROFISIOLOGÍA MUSCULAR -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700/60 shadow-md">
+                    <div class="flex items-center gap-3 mb-4 text-blue-400">
+                        <i class="fas fa-dna text-xl"></i>
+                        <h3 class="text-xl font-bold text-white">Fisiología Corporal</h3>
+                    </div>
+                    <ul class="space-y-2 text-slate-300 font-light text-sm">
+                        <li><strong class="font-medium text-white">Estructura y propiedades:</strong> Componentes mecánicos y neurofisiología del músculo.</li>
+                        <li><strong class="font-medium text-white">Procesos químicos:</strong> Descripción física y química en la contracción, relajación y estiramiento.</li>
+                        <li><strong class="font-medium text-white">Tejido conectivo:</strong> Función del colágeno, elastina, tendones, ligamentos y fascias en el movimiento.</li>
                     </ul>
                 </div>
 
-                <!-- Beneficios -->
-                <div class="bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                    <h3 class="text-2xl font-bold mb-4">Beneficios de la Flexibilidad</h3>
-                    <p class="text-gray-700 dark:text-gray-300">
-                        Exploraremos cómo mejorar el rendimiento deportivo y la calidad de vida a través de programas adaptados a las necesidades individuales.
-                    </p>
+                <!-- 3. CLASIFICACIÓN DE ESTIRAMIENTOS -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700/60 shadow-md">
+                    <div class="flex items-center gap-3 mb-4 text-blue-400">
+                        <i class="fas fa-dumbbell text-xl"></i>
+                        <h3 class="text-xl font-bold text-white">Técnicas de Estiramiento</h3>
+                    </div>
+                    <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">Sistemas de trabajo:</p>
+                    <div class="grid grid-cols-2 gap-2 text-slate-300 font-light text-sm">
+                        <div class="space-y-1">
+                            <p><span class="inline-block w-1.5 h-1.5 bg-blue-500 rounded-full mr-1.5"></span>Balístico</p>
+                            <p><span class="inline-block w-1.5 h-1.5 bg-blue-500 rounded-full mr-1.5"></span>Estático</p>
+                            <p><span class="inline-block w-1.5 h-1.5 bg-blue-500 rounded-full mr-1.5"></span>Pasivo</p>
+                        </div>
+                        <div class="space-y-1">
+                            <p><span class="inline-block w-1.5 h-1.5 bg-blue-500 rounded-full mr-1.5"></span>Pasivo-Activo</p>
+                            <p><span class="inline-block w-1.5 h-1.5 bg-blue-500 rounded-full mr-1.5"></span>Activo-Asistido</p>
+                            <p><span class="inline-block w-1.5 h-1.5 bg-blue-500 rounded-full mr-1.5"></span>FNP / Tracción</p>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Edad y Sexo -->
-                <div class="bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                    <h3 class="text-2xl font-bold mb-4">Edad y Sexo</h3>
-                    <p class="text-gray-700 dark:text-gray-300">
-                        Conoce cómo la edad y el sexo influyen en el desarrollo de la flexibilidad y adapta los programas para diferentes grupos.
-                    </p>
-                </div>
-
-                <!-- Técnicas de Estiramiento -->
-                <div class="bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                    <h3 class="text-2xl font-bold mb-4">Técnicas de Estiramiento</h3>
-                    <ul class="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
-                        <li>Balístico</li>
-                        <li>Estático</li>
-                        <li>Pasivo</li>
-                        <li>Pasivo-Activo</li>
-                        <li>FNP</li>
-                        <li>Tracción</li>
+                <!-- 4. APLICACIÓN Y PLANIFICACIÓN DE RUTINAS -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700/60 shadow-md">
+                    <div class="flex items-center gap-3 mb-4 text-blue-400">
+                        <i class="fas fa-clock text-xl"></i>
+                        <h3 class="text-xl font-bold text-white">Aplicación y Tiempos</h3>
+                    </div>
+                    <ul class="space-y-2 text-slate-300 font-light text-sm">
+                        <li><span class="text-blue-400 font-bold mr-1">•</span> Antes y después del trabajo específico o entrenamiento.</li>
+                        <li><span class="text-blue-400 font-bold mr-1">•</span> Según estadios, períodos o ciclos de entrenamiento establecidos.</li>
+                        <li><span class="text-blue-400 font-bold mr-1">•</span> Planificación orientada a las etapas de recuperación activa.</li>
                     </ul>
                 </div>
 
-                <!-- Otros elementos -->
-                <div class="bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                    <h3 class="text-2xl font-bold mb-4">Relajación</h3>
-                    <p class="text-gray-700 dark:text-gray-300">
-                        Técnicas efectivas para mejorar la relajación y su importancia en el desarrollo de la flexibilidad y elongación.
+                <!-- 5. FUNDAMENTOS Y TEORÍA BASE -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700/60 shadow-md">
+                    <div class="flex items-center gap-3 mb-4 text-blue-400">
+                        <i class="fas fa-book text-xl"></i>
+                        <h3 class="text-xl font-bold text-white">Bases y Definiciones</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        <span class="bg-slate-700 text-xs px-2.5 py-1 rounded-md text-slate-200">Flexibilidad</span>
+                        <span class="bg-slate-700 text-xs px-2.5 py-1 rounded-md text-slate-200">Elongación</span>
+                        <span class="bg-slate-700 text-xs px-2.5 py-1 rounded-md text-slate-200">Elasticidad</span>
+                        <span class="bg-slate-700 text-xs px-2.5 py-1 rounded-md text-slate-200">Tensión</span>
+                        <span class="bg-slate-700 text-xs px-2.5 py-1 rounded-md text-slate-200">Deformación</span>
+                        <span class="bg-slate-700 text-xs px-2.5 py-1 rounded-md text-slate-200">Contracción</span>
+                    </div>
+                    <p class="text-slate-400 font-light text-xs leading-relaxed">
+                        Análisis de beneficios y ventajas en Programas de Entrenamiento Deportivo y Actividad Física Recreativa según períodos, edad y sexo.
                     </p>
                 </div>
 
-                <div class="bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                    <h3 class="text-2xl font-bold mb-4">Lesiones Comunes</h3>
-                    <ul class="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
-                        <li>Esguince</li>
-                        <li>Desgarro</li>
-                        <li>Contractura</li>
-                        <li>Calambre</li>
-                        <li>Tendinitis</li>
+                <!-- 6. MÓDULO DE RELAJACIÓN PROFUNDA -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700/60 shadow-md">
+                    <div class="flex items-center gap-3 mb-4 text-blue-400">
+                        <i class="fas fa-spa text-xl"></i>
+                        <h3 class="text-xl font-bold text-white">Abordaje de la Relajación</h3>
+                    </div>
+                    <ul class="space-y-1.5 text-slate-300 font-light text-sm">
+                        <li><strong class="font-medium text-white">Definición:</strong> Objetivos y beneficios psicofísicos.</li>
+                        <li><strong class="font-medium text-white">Cognitivo Conductual:</strong> Relajación aplicada estratégicamente a los ejercicios de flexibilidad.</li>
+                        <li><strong class="font-medium text-white">Metodología:</strong> Criterios profesionales de cómo y cuándo aplicar cada técnica.</li>
                     </ul>
                 </div>
 
-                <div class="bg-gray-300 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 dark:bg-gray-800 dark:text-white">
-                    <h3 class="text-2xl font-bold mb-4">Planificación</h3>
-                    <p class="text-gray-700 dark:text-gray-300">
-                        Aprende a estructurar entrenamientos adaptados a los objetivos específicos de cada individuo o grupo.
+                <!-- 7. LESIONES Y TEJIDOS BLANDOS -->
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700/60 shadow-md">
+                    <div class="flex items-center gap-3 mb-4 text-blue-400">
+                        <i class="fas fa-user-shield text-xl"></i>
+                        <h3 class="text-xl font-bold text-white">Patologías y Tejidos Blandos</h3>
+                    </div>
+                    <p class="text-slate-300 font-light text-sm leading-relaxed mb-3">
+                        Estudio clínico orientado al diagnóstico y tratamiento de lesiones comunes en la práctica:
+                    </p>
+                    <div class="flex flex-wrap gap-1.5 text-xs text-red-400">
+                        <span class="border border-red-500/30 px-2 py-0.5 rounded-md bg-red-500/5">Esguince</span>
+                        <span class="border border-red-500/30 px-2 py-0.5 rounded-md bg-red-500/5">Desgarro</span>
+                        <span class="border border-red-500/30 px-2 py-0.5 rounded-md bg-red-500/5">Contractura</span>
+                        <span class="border border-red-500/30 px-2 py-0.5 rounded-md bg-red-500/5">Calambre</span>
+                        <span class="border border-red-500/30 px-2 py-0.5 rounded-md bg-red-500/5">Luxación</span>
+                        <span class="border border-red-500/30 px-2 py-0.5 rounded-md bg-red-500/5">Fractura</span>
+                        <span class="border border-red-500/30 px-2 py-0.5 rounded-md bg-red-500/5">Bursitis / Tendinitis</span>
+                    </div>
+                </div>
+
+                <!-- 8. TARJETA DE CIERRE: PLANIFICACIÓN Y COMPLEMENTO -->
+                <div class="lg:col-span-3 bg-slate-800 p-6 rounded-2xl border border-slate-700/60 shadow-md">
+                    <div class="flex items-center gap-3 mb-2 text-blue-400">
+                        <i class="fas fa-calendar-alt text-xl"></i>
+                        <h3 class="text-xl font-bold text-white">Planificación de Clases y Metodología</h3>
+                    </div>
+                    <p class="text-slate-300 font-light text-sm leading-relaxed">
+                        Herramientas profesionales para la planificación estructurada de entrenamientos o clases completas de Flexibilidad y Elongación, entendiendo la disciplina tanto de manera aislada como un factor de trabajo complementario fundamental para deportes específicos.
                     </p>
                 </div>
+
             </div>
+        </div>
+    </main>
+
+    <!-- Call to Action (Sección de Cierre Oscura) -->
+    <section class="bg-slate-800 py-16 text-white text-center px-6 border-t border-b border-slate-700/40">
+        <div class="max-w-xl mx-auto">
+            <h3 class="text-3xl font-bold mb-3">¿Querés capacitarte con nosotros?</h3>
+            <p class="text-slate-400 font-light mb-8 text-base">Iniciá tu formación profesional en el Método CSain® y transformá tu perfil laboral como entrenador especializado.</p>
+            <a href="https://wa.me/5491168601965?text=Hola%20Claudia!%20Quiero%20recibir%20informaci%C3%B3n%20e%20inscribirme%20en%20la%20Etapa%201%20del%20Programa%20de%20Entrenador." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-4 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-0.5">
+                <i class="fab fa-whatsapp text-xl"></i> Consultar Inscripciones
+            </a>
         </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="bg-blue-500 py-12 text-white text-center dark:bg-blue-600">
-        <h3 class="text-3xl font-bold mb-4">¡Inscríbete Hoy!</h3>
-        <p class="text-lg mb-6">Conviértete en un experto/a en flexibilidad y elongación con nuestro curso de formación.</p>
-        <a href="https://wa.me/5491168601965" class="bg-gray-300 text-blue-500 hover:bg-gray-100 py-2 px-6 rounded-full transition-colors duration-300">Contacta Ahora</a>
-    </section>
-
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-6 mt-16">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 Método CSain. Todos los derechos reservados.</p>
+    <footer class="bg-slate-950 text-slate-400 py-8 border-t border-slate-800">
+        <div class="container mx-auto text-center px-4">
+            <p class="font-bold text-white tracking-wide uppercase mb-1">MÉTODO CSAIN®</p>
+            <p class="text-sm">&copy; 2026 Todos los derechos reservados. Método de Técnicas Integradas en Flexibilidad y Elongación CSain®.</p>
+            <p class="text-xs mt-1 text-slate-600">Sede Central: Bahía Blanca, Argentina.</p>
+            <!-- Icono de Instagram en Footer -->
+            <div class="mt-4">
+                <a href="https://www.instagram.com/metodocsain/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-pink-400 text-xl transition">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
         </div>
     </footer>
 </body>

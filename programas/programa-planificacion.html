@@ -1,84 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Planificación de Clases - Método CSain®</title>
+    <meta name="description" content="Formate en la Segunda Etapa del Método CSain®. Adquirí herramientas profesionales para la planificación estructurada de clases de flexibilidad y elongación.">
+    
+    <!-- Tailwind CSS & FontAwesome -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        rel="stylesheet"
-    />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <title>Programa Planificación de Clases - MétodoCSain</title>
 </head>
-    <a href="../index.html#cursos" class="fixed bottom-4 right-4 bg-cyan-400 text-white text-3xl px-3 py-3 rounded-full shadow-lg hover:bg-gray-700 transition z-50">
-    ←
-    </a>
-<body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
-    <!-- Navbar -->
-    <nav class="bg-gray-300 dark:bg-gray-800 bg-opacity-75 p-4 fixed top-0 left-0 right-0 z-50 shadow-lg">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="../index.html" target="_blank" class="flex items-center">
-                <img src="../images/metodo-csain-logo.png" alt="Logo" class="h-8 mr-2">
-                <span class="text-xl font-semibold text-black dark:text-white hover:text-blue-500">Método CSain</span>
-            </a>
-            <a href="https://wa.me/5491168601965" class="text-lg text-black dark:text-white hover:text-blue-500 transition duration-300">Contactanos</a>
+<body class="font-roboto bg-[#090d16] text-gray-300 antialiased pt-[72px]">
 
-            
+    <!-- Botón Flotante para Volver Atrás (Ubicación relativa corregida) -->
+    <a href="../formacion-profesional.html" class="fixed bottom-6 left-6 bg-blue-600 text-white text-xl w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:bg-blue-500 transition transform hover:scale-110 z-50" aria-label="Volver a formación">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <!-- Navbar -->
+    <nav class="bg-[#111827]/90 backdrop-blur-md p-4 fixed top-0 left-0 right-0 z-50 shadow-lg border-b border-[#1f2937]">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="../index.html" class="flex items-center space-x-2">
+                <img src="../images/metodo-csain-logo.png" alt="Logo Método CSain" class="h-8 brightness-110">
+                <span class="text-xl font-bold text-white tracking-tight hover:text-blue-400 transition">Método CSain®</span>
+            </a>
+            <a href="https://wa.me/5491168601965" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-gray-400 hover:text-blue-400 transition tracking-wide uppercase">
+                Contactanos
+            </a>
         </div>
     </nav>
 
     <!-- Programa del Curso -->
-    <section id="programa-curso" class="py-12">
-        <h2 class="text-4xl lg:text-5xl font-bold text-center mt-16 mb-8 text-black dark:text-white">
-            Programa del Curso:
-            <p class="text-white-500 font-normal text-2xl lg:mt-2 lg:text-3xl">Segunda Etapa de formación</p>
-            <p class="text-blue-500 lg:mt-2 lg:text-3xl">Planificación de Clases</p>
-        </h2>
-        <div class="container mx-auto px-4 flex flex-col lg:flex-row">
+    <section id="programa-curso" class="py-12 container mx-auto px-6 max-w-5xl">
+        <div class="text-center mt-8 mb-12">
+            <span class="text-xs font-bold text-blue-400 tracking-widest uppercase block mb-2">Segunda Etapa de Formación</span>
+            <h1 class="text-3xl md:text-5xl font-bold text-white tracking-tight">
+                Planificación de Clases
+            </h1>
+        </div>
+        
+        <div class="flex flex-col lg:flex-row gap-8 items-start">
             
             <!-- Contenedor de la izquierda (Descripción y Programa) -->
-            <div class="flex-1 lg:mr-8 mb-8 lg:mb-0">
+            <div class="flex-1 w-full space-y-6">
                 <!-- Objetivos destacados -->
-                <div class="bg-gray-300 dark:bg-gray-800 p-6 rounded-lg shadow-md lg:mt-10 mb-8">
-                    <h3 class="text-2xl font-bold mb-4 text-black dark:text-white">Objetivos del Curso</h3>
-                    <p class="text-lg text-gray-700 dark:text-gray-300">
+                <div class="bg-[#111827] p-8 rounded-2xl shadow-md border border-[#1f2937]">
+                    <h3 class="text-xl font-bold mb-4 text-white flex items-center">
+                        <i class="fas fa-bullseye text-blue-400 mr-3"></i> Objetivos del Curso
+                    </h3>
+                    <p class="text-gray-300 font-light leading-relaxed">
                         Este curso está diseñado para formar entrenadores en flexibilidad y elongación, brindando los conocimientos teóricos y prácticos necesarios para aplicar técnicas efectivas y seguras, tanto en el ámbito deportivo como en la actividad física recreativa.
                     </p>
                 </div>
 
                 <!-- Programa de contenido -->
-                <div class="bg-gray-300 dark:bg-gray-800 p-6 rounded-lg shadow-md mb-8">
-                    <h3 class="text-2xl font-bold mb-4 text-black dark:text-white">Programa del Curso</h3>
-                    <ul class="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2">
-                        <li>Posturas y ejercicios con y sin elementos de ayuda</li>
-                        <li>Secuencias dinámicas de flexibilidad compensada</li>
-                        <li>Posturas con cinturones colgantes, espaldares y pared</li>
-                        <li>Ejercicios simétricos y asimétricos</li>
+                <div class="bg-[#111827] p-8 rounded-2xl shadow-md border border-[#1f2937]">
+                    <h3 class="text-xl font-bold mb-4 text-white flex items-center">
+                        <i class="fas fa-list-ul text-blue-400 mr-3"></i> Contenido del Programa
+                    </h3>
+                    <ul class="space-y-3 text-gray-300 font-light">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-blue-500 mt-1.5 mr-3 text-xs"></i>
+                            <span>Posturas y ejercicios con y sin elementos de ayuda.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-blue-500 mt-1.5 mr-3 text-xs"></i>
+                            <span>Secuencias dinámicas de flexibilidad compensada.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-blue-500 mt-1.5 mr-3 text-xs"></i>
+                            <span>Posturas con cinturones colgantes, espaldares y pared.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-blue-500 mt-1.5 mr-3 text-xs"></i>
+                            <span>Ejercicios simétricos y asimétricos.</span>
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <!-- Contenedor de la derecha (Imagen) -->
-            <div class="flex-1 h-full">
-                <img src="../images/metodo-csain-programa-planificacion.png" alt="Métodos y Técnicas" class="h-full w-full p-8 object-cover rounded-lg shadow-md">
+            <div class="flex-1 w-full lg:sticky lg:top-[96px]">
+                <div class="rounded-2xl overflow-hidden shadow-lg border border-[#1f2937] bg-[#111827]">
+                    <img src="../images/metodo-csain-programa-planificacion.png" alt="Métodos y Técnicas de Planificación" class="w-full h-auto object-cover">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Call to Action -->
-    <section class="bg-blue-500 py-12 text-white text-center">
-        <h3 class="text-3xl font-bold mb-4">¡Inscríbete Hoy!</h3>
-        <p class="text-lg mb-6">Conviértete en un experto en flexibilidad y elongación con el Método CSain.</p>
-        <a href="https://wa.me/5491168601965" class="bg-gray-300 text-blue-500 px-6 py-3 rounded-md font-medium hover:bg-gray-100">
-            Contactanos
-        </a>
+    <section class="bg-[#111827] border-t border-[#1f2937] py-16 text-center">
+        <div class="container mx-auto px-6 max-w-2xl">
+            <h3 class="text-2xl md:text-3xl font-bold mb-4 text-white tracking-tight">¡Inscribite Hoy!</h3>
+            <p class="text-gray-400 font-light mb-8 max-w-md mx-auto">Convertite en un experto en flexibilidad y elongación bajo el aval y la excelencia técnica del Método CSain®.</p>
+            <a href="https://wa.me/5491168601965" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl transition shadow-md">
+                <i class="fab fa-whatsapp mr-2 text-lg"></i> Solicitar Información por WhatsApp
+            </a>
+        </div>
     </section>
+ <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-8 border-t border-slate-800">
+        <div class="container mx-auto text-center px-4">
+            <p class="font-bold text-white tracking-wide uppercase mb-1">MÉTODO CSAIN®</p>
+            <p class="text-sm">&copy; 2026 Todos los derechos reservados. Método de Técnicas Integradas en Flexibilidad y Elongación CSain®.</p>
+            <p class="text-xs mt-1 text-slate-600">Sede Central: Bahía Blanca, Argentina.</p>
+            <!-- Icono de Instagram en Footer -->
+            <div class="mt-4">
+                <a href="https://www.instagram.com/metodocsain/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-pink-400 text-xl transition">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
-   
+
 </body>
 </html>

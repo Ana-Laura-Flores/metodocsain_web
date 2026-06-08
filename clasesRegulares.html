@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Clases Regulares de Elongación y Flexibilidad | Método CSain®</title>
+    <meta name="description" content="Clases de flexibilidad, elongación integrativa y reeducación postural. Modalidad presencial en Bahía Blanca y clases online en vivo por Teams. Profesora Claudia Sain. Metodo CSain®">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="font-roboto bg-slate-900 text-slate-300 pt-[62px]">
+    
+    <!-- HEADER DE NAVEGACIÓN -->
+    <header class="bg-slate-900 shadow-md fixed w-full top-0 z-50 border-b border-slate-800">
+        <div class="container mx-auto flex justify-between items-center py-3 px-4">
+            <a href="index.html" class="flex items-center">
+                <img alt="Metodo CSain logo" src="./images/metodo-csain-logo.png" class="h-9 w-auto" />
+            </a>
+            <button id="menu-toggle" class="block md:hidden text-white focus:outline-none" aria-label="Abrir menú">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            <nav id="menu" class="hidden md:flex flex-col md:flex-row md:space-x-8 text-white absolute md:static bg-slate-900 right-0 top-[62px] md:top-0 shadow-md md:shadow-none p-4 md:p-0 z-10 w-full md:w-auto">
+                <ul class="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0">
+                    <li><a class="hover:text-blue-400 font-medium transition" href="index.html">INICIO</a></li>
+                    <li><a class="hover:text-blue-400 font-medium transition" href="formacion-profesional.html">FORMACIÓN PROFESIONAL</a></li>
+                    <li><a class="text-blue-400 font-bold" href="clasesRegulares.html">CLASES REGULARES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Botón flotante de WhatsApp -->
+        <a href="https://wa.me/5491168601965" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 transition transform hover:scale-110" aria-label="Contacto WhatsApp">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-14 h-14" />
+        </a>
+
+        <!-- HERO DE LA PÁGINA -->
+        <section class="relative bg-slate-800 py-20 text-center px-4 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-slate-900 opacity-85"></div>
+            <div class="relative container mx-auto max-w-4xl">
+                <span class="text-blue-400 font-bold uppercase tracking-widest text-xs md:text-sm block mb-2">Tu espacio de bienestar diario</span>
+                <h1 class="text-white text-3xl md:text-5xl font-bold tracking-tight mb-4">
+                    Clases Regulares de Flexibilidad y Elongación
+                </h1>
+                <p class="text-slate-300 text-lg max-w-2xl mx-auto font-light leading-relaxed">
+                    Un entrenamiento psicofísico, gradual y progresivo para liberar tensiones, corregir posturas y conectar profundamente con tu cuerpo.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE MODALIDADES Y HORARIOS -->
+        <section class="container mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                
+                <!-- Tarjeta Bahía Blanca -->
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700/60 shadow-md flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 text-blue-400 mb-4">
+                            <i class="fas fa-map-marker-alt text-2xl"></i>
+                            <h3 class="text-2xl font-bold text-white">Presencial en Bahía Blanca</h3>
+                        </div>
+                        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+                            Entrená en nuestra sede central. Ideal para corregir la biomecánica en vivo y disfrutar del acondicionamiento postural cuidado.
+                        </p>
+                        <div class="border-t border-slate-700/60 pt-4 space-y-2">
+                            <h4 class="font-bold text-sm uppercase text-slate-400 tracking-wider">Horarios Disponibles:</h4>
+                            <p class="text-slate-200 font-medium"><i class="far fa-clock mr-2 text-blue-400"></i>Lunes, Martes y Jueves</p>
+                            <p class="text-slate-400 text-xs pl-6">Turnos disponibles durante la mañana, siesta y tarde.</p>
+                            <p class="text-xs text-slate-500 pt-2 italic"><i class="fas fa-info-circle mr-1"></i>Consultar dirección exacta por WhatsApp.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta Online por Zoom -->
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700/60 shadow-md flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 text-blue-400 mb-4">
+                            <i class="fas fa-video text-2xl"></i>
+                            <h3 class="text-2xl font-bold text-white">Online por Microsoft Teams</h3>
+                        </div>
+                        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+                            Sumate en vivo desde cualquier rincón del país. Clases interactivas guiadas por respiración consciente y sensopercepción.
+                        </p>
+                        <div class="border-t border-slate-700/60 pt-4 space-y-2">
+                            <h4 class="font-bold text-sm uppercase text-slate-400 tracking-wider">Horarios Disponibles:</h4>
+                            <p class="text-slate-200 font-medium"><i class="far fa-clock mr-2 text-blue-400"></i>Martes y Jueves</p>
+                            <p class="text-slate-400 text-xs pl-6">Turno mañana (Clases sincrónicas en tiempo real).</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN: ENFOQUE HOLÍSTICO Y DISCIPLINAS -->
+        <section class="bg-slate-800 py-16 border-t border-b border-slate-700/60">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-white">¿Cómo son nuestras clases?</h2>
+                    <p class="text-slate-400 mt-2">Un enfoque integrativo que equilibra cuerpo, mente y emociones.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold text-blue-400">Entrenamiento Biomecánico y Psico-físico</h3>
+                        <p class="text-slate-300 text-base leading-relaxed">
+                            A diferencia de los estiramientos tradicionales, en nuestras sesiones trabajamos desde la <strong>columna vertebral, las fascias y las cadenas musculares</strong>. Cada movimiento está guiado por técnicas de respiración precisas diseñadas para economizar energía y evitar cualquier tipo de lesión estructural.
+                        </p>
+                        <p class="text-slate-300 text-base leading-relaxed">
+                            Empleamos herramientas de la <strong>neuro y sensopercepción cognitiva</strong>. No solo entrenamos el cuerpo de forma mecánica, sino que estimulamos la propiocepción para que desarrolles una verdadera conciencia corporal bajo una actitud de paciencia y profundo respeto por tu proceso.
+                        </p>
+                    </div>
+                    <div class="bg-slate-900 p-6 rounded-2xl border border-slate-700/60">
+                        <h4 class="font-bold text-white mb-4"><i class="fas fa-layer-group text-blue-400 mr-2"></i>Técnicas que integramos de forma versátil:</h4>
+                        <ul class="space-y-2.5 text-sm text-slate-300">
+                            <li><i class="fas fa-chevron-right text-blue-400 mr-2 text-xs"></i> Secuencias de flexibilidad dinámicas y estáticas.</li>
+                            <li><i class="fas fa-chevron-right text-blue-400 mr-2 text-xs"></i> Flexibilidad asistida (Técnicas FNP, palancas y tracción).</li>
+                            <li><i class="fas fa-chevron-right text-blue-400 mr-2 text-xs"></i> Elongación activa, pasiva, con oposición y compensada.</li>
+                            <li><i class="fas fa-chevron-right text-blue-400 mr-2 text-xs"></i> Uso cuidado de elementos (cinturones, sillas, pelotas).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- SUBSECCIÓN DISCIPLINAS -->
+                <div class="border-t border-slate-700/60 pt-12">
+                    <h3 class="text-2xl font-bold text-center text-white mb-8">Resultados comprobados en diferentes áreas:</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="p-5 bg-slate-900 rounded-xl border border-slate-700/60">
+                            <div class="text-blue-400 text-xl mb-2"><i class="fas fa-running"></i></div>
+                            <h4 class="font-bold text-white mb-2">Para Deportistas</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Mejora notable en la flexibilidad y la fuerza equilibrada, potenciando el rendimiento de atletas competitivos y recreativos.</p>
+                        </div>
+                        <div class="p-5 bg-slate-900 rounded-xl border border-slate-700/60">
+                            <div class="text-blue-400 text-xl mb-2"><i class="fas fa-music"></i></div>
+                            <h4 class="font-bold text-white mb-2">Para Danza y Artes</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Evolución en la calidad del gesto, fluidez del movimiento y control corporal en acrobacia, contorsión y disciplinas aéreas.</p>
+                        </div>
+                        <div class="p-5 bg-slate-900 rounded-xl border border-slate-700/60">
+                            <div class="text-blue-400 text-xl mb-2"><i class="fas fa-heartbeat"></i></div>
+                            <h4 class="font-bold text-white mb-2">Reeducación Postural</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Ayuda integral para corregir asimetrías de columna y aliviar dolores diarios, logrando un cuerpo mucho más liviano y ágil.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACCIÓN DE CIERRE -->
+        <section class="container mx-auto px-4 py-16 text-center max-w-2xl">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                ¿Querés sumarte a nuestras clases?
+            </h2>
+            <p class="text-slate-300 text-base mb-8 leading-relaxed">
+                Ponete en contacto directo con <strong>Claudia</strong> para coordinar. Contanos qué estás necesitando o qué objetivo buscás, y te ayudamos a encontrar el horario y la modalidad ideal para vos.
+            </p>
+            <a href="https://wa.me/5491168601965?text=Hola%20Claudia!%20Quiero%20consultar%20por%20las%20clases%20regulares%20del%20M%C3%A9todo%20CSain%20y%20ver%20qu%C3%A9%20modalidad%20se%20adapta%20mejor%20a%20lo%20que%20necesito." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-full tracking-wide shadow-lg transition duration-300 transform hover:-translate-y-0.5">
+                <i class="fab fa-whatsapp mr-2.5 text-lg"></i> Consultar con Claudia
+            </a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 border-t border-slate-800 py-8 text-center text-sm text-slate-400">
+        <div class="container mx-auto px-4">
+            <p class="font-bold tracking-wide text-white">MÉTODO CSAIN®</p>
+            <p class="mt-2">&copy; 2026 Todos los derechos reservados. Método de Técnicas Integradas en Flexibilidad y Elongación CSain®.</p>
+            <p class="text-xs mt-1 text-slate-600">Sede Central: Bahía Blanca, Argentina.</p>
+            <div class="mt-4">
+                <a href="https://www.instagram.com/metodocsain/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-pink-400 text-xl transition">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
